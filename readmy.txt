@@ -1,5 +1,9 @@
-git init
-git config
-git status
-git commit
-git add
+git init - новый репозиторий
+git config - показывает настройки 
+git status - проверить статус файлов
+git commit - сохранить состояние проекта
+git commit -m - сохранить комит с меседджем
+git add - добавить из рабочей директории в индекс
+git commit -a -m "commit message" - добавить и сохранить комит
+git commit --amend --no-edit - обновить комит текст старый
+git commit --amend -m - новый комит новый текст
